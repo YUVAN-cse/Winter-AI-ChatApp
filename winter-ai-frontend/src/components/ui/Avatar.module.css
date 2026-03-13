@@ -1,0 +1,16 @@
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, var(--frost), var(--aurora-2));
+  color: var(--bg-void);
+  letter-spacing: 0.02em;
+}
+
+.sm  { width: 28px; height: 28px; font-size: 11px; }
+.md  { width: 36px; height: 36px; font-size: 13px; }
+.lg  { width: 44px; height: 44px; font-size: 16px; }
